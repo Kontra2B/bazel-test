@@ -1,5 +1,5 @@
 cc_test (
 	name = "gtest",
 	srcs = ["testmain.cpp", "testsuite.cpp"],
-	deps = ["@gtest//:gtest", "@gtest//:gtest_main"],
+	deps = ["@gtest//:gtest", "@gtest//:gtest-gtest_main"],
 )

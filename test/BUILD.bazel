@@ -1,0 +1,6 @@
+cc_test (
+	name = "gtest",
+	srcs = ["testmain.cpp", "testsuite.cpp"],
+	deps = ["@gtest//:gtest", "@gtest//:gtest_main"],
+	copts = ["-std=c++14"],
+)
